@@ -30,7 +30,7 @@
 }
 
 .logo {
-  background: linear-gradient(135deg, #f97316, #fb923c);
+  background: linear-gradient(135deg, #ef7e22, #ef7e22);
   color: white;
   padding: 8px 20px;
   border-radius: 20px;
@@ -40,9 +40,9 @@
 }
 
 .nav-tab {
-  color: #fef3c7;
-  background: #f97315;
-  padding: 8px 24px;
+  color: #f2f2f2;
+  background: #ef7e22;
+  padding: 18px 24px;
   font-size: 14px;
   font-weight: 700;
   display: flex;
@@ -50,15 +50,17 @@
 }
 
 .nav-top {
+  font-size: 14px;
+  font-weight: 300;
   padding: 0px 12px;
-  background: #f8fafc;
+  background: #f2f2f2;
   display: flex;
   justify-content: flex-end;
   border-bottom: 3px solid;
   border-image: linear-gradient(to right, 
-    #10B981 0%, #10B981 33%, 
-    #3B82F6 33%, #3B82F6 67%, 
-    #EF4444 67%, #EF4444 100%) 1;
+    #abe22c 0%, #abe22c 33%, 
+    #007ad3 33%, #007ad3 67%, 
+    #ea0018 67%, #ea0018 100%) 1;
 }
 
 
@@ -67,10 +69,13 @@
   display: flex;
   gap: 12px;
   align-items: center;
+  margin-right: 40px;
+  margin-top: -1px;
+  margin-bottom: -1px;
 }
 
 .nav-btn {
-  padding: 8px 16px;
+  padding: 7px 16px;
   border-radius: 20px;
   font-size: 13px;
   font-weight: 600;
@@ -88,7 +93,7 @@
 }
 
 .yellow {
-  background: #f97316;
+  background: #ef7e22;
   color:#ffffff;
   font-size: 14px;
   font-weight: 400;
@@ -104,6 +109,7 @@
   align-items: center;      /* ← HORIZONTAL CENTER */
   padding: 40px 20px;
   background-color: #ffffff;
+  margin-top: 150px;
 }
 
 .verification-badge {
@@ -164,3 +170,4 @@
   display: block;   
   object-fit: contain; 
 }
+
